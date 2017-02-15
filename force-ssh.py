@@ -37,7 +37,7 @@ def main():
     host = options.tgtHost
     dict = options.Passdict
     user = options.user
-    if host == None or dict == None or user == None:
+    if host is None or dict is None or user is None:
         print parser.usage
         exit(0)
     # user = options.user
